@@ -3,4 +3,4 @@ services:
     name: beecrypto
     env: python
     buildCommand: ""
-   startCommand: gunicorn bee_crypto/app:app
+   startCommand: gunicorn app:app

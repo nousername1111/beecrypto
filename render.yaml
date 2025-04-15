@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: bee-crypto
+    name: beecrypto
     env: python
     buildCommand: ""
     startCommand: gunicorn app:app
